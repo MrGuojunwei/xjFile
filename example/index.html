@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>xjFileDemo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="test" class='xj-wrap'></div>
+  <script src='../xjFile.js'></script>
+  <script>
+    let opt = {
+      el: '#test', // 不填则直接默认挂在body上
+      width: 60,
+      height: 60,
+      compress: true,
+      accept: 'image/png,image/jpg,image/jpeg', // 可选
+      beforeUpload: function (e) { console.log(e) }, // 可选
+      onProgress: function (e) { console.log(e) }, // 可选
+      onLoad: function (e) { console.log(e) }, // 可选
+      onError: function (e) { console.error('文件读取错误', e) } // 可选
+    }
+    let myFile = new xjFile(opt);
+  </script>
+</body>
+
+</html>

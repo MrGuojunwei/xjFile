@@ -1,0 +1,22 @@
+{
+  "name": "xjfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xjFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGuojunwei/xjFile.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "郭军伟",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrGuojunwei/xjFile/issues"
+  },
+  "homepage": "https://github.com/MrGuojunwei/xjFile#readme"
+}
